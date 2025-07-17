@@ -540,3 +540,24 @@
   text-transform: uppercase;
   white-space: nowrap;
 }
+
+.left_img {
+  position: absolute;
+  left: 10%;
+  top: 68%;
+  width: 230px;
+}
+
+.right_img {
+  position: absolute;
+  right: 10%;
+  top: 74%;
+  width: 262px;
+}
+
+@media screen and (max-width: 768px) {
+  .left_img,
+  .right_img {
+    display: none;
+  }
+}
